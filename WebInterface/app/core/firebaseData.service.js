@@ -19,6 +19,7 @@
         /*****service API******/
         return ({
             getOutputs: getOutputs,
+            toggle: toggle
            
         });
 
@@ -33,6 +34,13 @@
                 deferred.resolve(promise);
             });
             return (deferred.promise);
+        }
+
+        function toggle(outputId,newValue) {
+
+            var outputRef = new Firebase('https://dazzling-torch-8270.firebaseio.com/RemotePower/Outputs/' + outputId);
+            outputRef.set({ id: newValue });
+           
         }
        
 

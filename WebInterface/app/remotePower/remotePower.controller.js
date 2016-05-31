@@ -9,6 +9,7 @@
 
 
         var vm = this;
+        
         vm.output1Status = "";
         vm.output2Status = "";
         vm.output3Status = "";
@@ -23,15 +24,34 @@
 
         ///***view model methods***///
         vm.toggoleOutput1 = function () {
-           
+            if (vm.output1BtnStyle == 0)
+            {
+                firebaseDataService.toggle(1, 1);
+            }
+            if (vm.output1BtnStyle == 1) {
+                firebaseDataService.toggle(1, 0);
+            }
+            SetOutputs();
         }
 
         vm.toggoleOutput2 = function () {
-
+            if (vm.output2BtnStyle == 0) {
+                firebaseDataService.toggle(2, 1);
+            }
+            if (vm.output2BtnStyle == 1) {
+                firebaseDataService.toggle(2, 0);
+            }
+            SetOutputs();
         }
 
         vm.toggoleOutput3 = function () {
-
+            if (vm.output3BtnStyle == 0) {
+                firebaseDataService.toggle(3, 1);
+            }
+            if (vm.output3BtnStyle == 1) {
+                firebaseDataService.toggle(3, 0);
+            }
+            SetOutputs();
         }
         
 
@@ -42,9 +62,9 @@
 
             firebaseDataService.getOutputs().then(function (promise) {
                 vm.outputs = promise;
-                vm.output1BtnStyle = vm.outputs[1];
-                vm.output2BtnStyle = vm.outputs[2];
-                vm.output3BtnStyle = vm.outputs[3];
+                vm.output1BtnStyle = vm.outputs[1].id;
+                vm.output2BtnStyle = vm.outputs[2].id;
+                vm.output3BtnStyle = vm.outputs[3].id;
                
 
             });
