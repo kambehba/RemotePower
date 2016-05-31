@@ -1,0 +1,25 @@
+﻿.div1{
+    width:150px;
+    height:150px;
+    background-color:green;
+    border:double;
+    border-style:solid;
+    margin-top:20px;
+    margin-left:20px;
+}
+
+.btn1{
+    margin-left:20px;
+    margin-top:10px;
+}
+
+.btn2{
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:20px;
+    width:90px;
+    height:190px;
+    white-space:normal;
+    font-weight:bold;
+  
+}

@@ -1,0 +1,28 @@
+﻿
+<div ng-controller="RemotePowerController as vm">
+    
+    <div>
+        <label>Output1</label>
+        <div ng-class="{0:'btn btn-danger btn2', 1:'btn btn-success btn2'}[vm.output1BtnStyle]">{{vm.output1Status}}</div>
+        <button class="btn btn-primary btn1" ng-click="vm.toggoleOutput1()">Toggole</button>
+        
+    </div>
+
+    <div>
+        <label>Output2</label>
+        <div ng-class="{0:'btn btn-danger btn2', 1:'btn btn-success btn2'}[vm.output2BtnStyle]">{{vm.output2Status}}</div>
+        <button class="btn btn-primary btn1" ng-click="vm.toggoleOutput2()">Toggole</button>
+
+    </div>
+
+    <div>
+        <label>Output3</label>
+        <div ng-class="{0:'btn btn-danger btn2', 1:'btn btn-success btn2'}[vm.output3BtnStyle]">{{vm.output3Status}}</div>
+        <button class="btn btn-primary btn1" ng-click="vm.toggoleOutput3()">Toggole</button>
+
+    </div>
+    
+    
+    
+   
+</div>

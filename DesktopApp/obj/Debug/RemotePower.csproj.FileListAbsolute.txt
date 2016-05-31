@@ -1,0 +1,12 @@
+C:\KamDev\RemotePower\RemotePower\bin\Debug\RemotePower.exe.config
+C:\KamDev\RemotePower\RemotePower\bin\Debug\RemotePower.exe
+C:\KamDev\RemotePower\RemotePower\bin\Debug\RemotePower.pdb
+C:\KamDev\RemotePower\RemotePower\obj\Debug\RemotePower.exe
+C:\KamDev\RemotePower\RemotePower\obj\Debug\RemotePower.pdb
+C:\KamDev\RemotePower\RemotePower\obj\Debug\RemotePower.csprojResolveAssemblyReference.cache
+C:\KamDev\RemotePower\DesktopApp\bin\Debug\RemotePower.exe.config
+C:\KamDev\RemotePower\DesktopApp\obj\Debug\RemotePower.exe
+C:\KamDev\RemotePower\DesktopApp\obj\Debug\RemotePower.pdb
+C:\KamDev\RemotePower\DesktopApp\bin\Debug\RemotePower.exe
+C:\KamDev\RemotePower\DesktopApp\bin\Debug\RemotePower.pdb
+C:\KamDev\RemotePower\DesktopApp\obj\Debug\RemotePower.csprojResolveAssemblyReference.cache
